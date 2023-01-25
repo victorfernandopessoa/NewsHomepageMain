@@ -1,0 +1,17 @@
+.bg-VeryDarkBlue {
+  background: hsl(240deg, 100%, 5%);
+}
+
+.bg-white {
+  background: #fff !important;
+}
+
+.bg-github {
+  background: rgb(83, 102, 126);
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.4);
+}/*# sourceMappingURL=background_class.css.map */

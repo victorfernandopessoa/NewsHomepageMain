@@ -1,0 +1,41 @@
+.hover-btn {
+  cursor: pointer;
+}
+.hover-btn:hover {
+  color: hsl(5deg, 85%, 63%) !important;
+}
+
+.hover-btn-yellow {
+  cursor: pointer;
+}
+.hover-btn-yellow:hover {
+  color: hsl(35deg, 77%, 62%) !important;
+}
+
+.no-border-button {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.no-border-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.no-border-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-custom {
+  border-radius: 0 !important;
+  background: hsl(5deg, 85%, 63%);
+  color: #fff;
+  font-size: 14px !important;
+  letter-spacing: 4.2px;
+  padding: 10px 40px;
+  transition: 0.3s;
+}
+.btn-custom:hover {
+  background: hsl(240deg, 100%, 5%);
+  color: #fff;
+}/*# sourceMappingURL=buttons.css.map */

@@ -1,0 +1,44 @@
+@import '_variable.scss';
+
+.hover-btn{
+    cursor: pointer;
+    &:hover{
+        color: $primary_btn !important;
+    }
+}
+
+.hover-btn-yellow{
+    cursor: pointer;
+    &:hover{
+        color: $primary !important;
+    }
+}
+
+.no-border-button{
+    outline:    none !important;
+    border:     none !important;
+    box-shadow: none !important;
+
+    &:focus{
+        outline:    none !important;
+        box-shadow: none !important;
+    }
+    &:active{
+        outline:    none !important;
+        box-shadow: none !important;
+    }
+}
+
+.btn-custom{
+    border-radius: 0 !important;
+    background: $primary_btn;
+    color: #fff;
+    font-size: 14px !important;
+    letter-spacing: 4.2px;
+    padding: 10px 40px;
+    transition: 0.3s;
+    &:hover{
+        background: $Very_dark_blue;
+        color: #fff; 
+    }
+}
